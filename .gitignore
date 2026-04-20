@@ -1,0 +1,31 @@
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+!.vscode/settings.json
+.idea/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build output
+dist/
+.output/
+.nuxt/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Task artifacts (keep structure, ignore generated files)
+tasks/*.tmp
+tasks/*.bak

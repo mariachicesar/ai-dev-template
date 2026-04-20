@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Edit",
+      "WebSearch",
+      "MCP"
+    ],
+    "deny": [
+      "Shell(rm -rf)",
+      "Shell(git push --force)",
+      "Shell(git reset --hard)"
+    ]
+  }
+}
